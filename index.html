@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/logo.png"type="image/png">
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+</head>
+
+<body>
+  <nav class="navbar-section">
+    <div class="navbar container">
+      <div class="logo-title">
+        <img src="assets/img/logo.png" alt="Logo" class="nav-logo">
+        <span class="nav-title">WEATHER FORECAST</span>
+      </div>
+
+      <div class="nav-search">
+        <input type="text" id="cityInput" placeholder="Enter city">
+      </div>
+    </div>
+  </nav>
+  <div class="container main_content_card">
+    <div class="row hero-body">
+
+
+
+      <div class="right-details-box">
+
+        <div class="weather-row-1">
+          <div class="weather-image">
+            <img src="assets/img/moderate rain day.png" id="condition" alt="weather icon">
+          </div>
+
+          <div class="weather-details">
+            <label id="city_name" for="city_name" class="city">Colombo</label>
+            <span class="country" id="country">Sri Lanka</span>
+            <span class="temp" id="temp">13</span>
+            <span class="condition" id="condition-live">Fog</span>
+            <span class="date" id="ontime">Saturday, November 15 2025</span>
+          </div>
+        </div>
+
+        <div class="weather-row-2">
+          <div class="sunrise">
+            <img src="assets/img/sun.png" alt="sunrise">
+            <p>Sunrise</p>
+            <label for="Sunrise">6:01 AM</label>
+          </div>
+
+          <div class="sunset">
+            <img src="assets/" alt="sunset">
+            <p>Sunset</p>
+            <label for="Sunset">5:49 PM</label>
+          </div>
+        </div>
+
+      </div>
+
+     
+
+      
+      <div class="left-details-box">
+        <div class="weather-details-col">
+          <h4>Wind Speed</h4>
+          <span id="windSpeed">3 km/h</span>
+
+          <h4>Cloud Cover</h4>
+          <span id="cloudcover">100%</span>
+
+          <h4>Pressure</h4>
+          <span id="pressure">1016hPa</span>
+        </div>
+
+        <div class="weather-details-col">
+          <h4>Humidity</h4>
+          <span id="humidity">98%</span>
+
+          <h4>UV Index</h4>
+          <span id="uvindex">0</span>
+
+          <h4>Visibility</h4>
+          <span id="visibility">0 km</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <p class="text-center text-body-secondary">© 2025 Weather Forecast, Powered by HTML, CSS, JS</p>
+    </footer>
+  </div>
+
+
+
+
+  <script src="assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
