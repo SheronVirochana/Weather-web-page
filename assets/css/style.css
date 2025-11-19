@@ -94,7 +94,8 @@ body{
 }
 
 .weather-image img {
-    width: 120px;
+    width: 200px;
+    height: 200px;
 }
 
 .weather-details {
@@ -170,6 +171,7 @@ body{
     color: #444;
     margin-bottom: 10px;
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
